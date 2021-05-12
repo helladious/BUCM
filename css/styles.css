@@ -1,22 +1,28 @@
+/*웹 바디*/
+body{
+    margin:0;
+}
+
 /*메인 화면 버튼*/
 .indexbtn{
     text-align : center;
 }
 
-/*로그인, 회원가입, 뒤로가기 버튼*/
+/*로그인,    회원가입,    뒤로가기 버튼*/
 #signinbtn, #signupbtn, #backbtn{
-    width: 100px;
+    width : 100px;
     margin : 15px;
 }
 
 /*상단의 페이지 제목*/
 .subtitle {
-    margin : 20px;
-    font-family: 'Nanum Gothic', sans-serif;
+    margin-top : 20px;
+    margin-bottom : 0;
+    font-family : 'Nanum Gothic', sans-serif;
     font-size : 32px;
     font-weight : bold;
     text-align : center;
-    border-bottom:1px solid;
+    border-bottom : 1px solid;
     padding-bottom : 40px;
 }
 
@@ -36,14 +42,39 @@
 .portalbtn{
     padding : 20px;
     width : 100px;
-    word-wrap: break-word;
-    word-break: break-all;
-    border-right-style: solid;
+    word-wrap : break-word;
+    word-break : break-all;
+    border-right : 1px solid;
+    display: grid;
+    grid-template-columns: 100px, 1fr;
 }
 
 /*포탈버튼*/
-#myCEbtn, #enterbtn, #leftbtn, #recommendbtn, #logoutbtn{
-    width: 100px;
+/*내 학점,  학점 입력,   남은 학점,   필요 학점,       로그아웃*/
+#myCEbtn,   #enterbtn,  #leftbtn,   #recommendbtn,  #logoutbtn{
+    width : 100px;
     margin-bottom : 15px;
     border-radius : 10px;
+}
+
+#signbtn{
+    width: 130px;
+    margin: 0;
+}
+
+.signup{
+    width: 400px;
+    margin-left:auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+.signupbtn{
+    width: 130px;
+}
+
+.signin{
+    width: 130px;
+    margin-left:auto;
+    margin-right : auto;
 }

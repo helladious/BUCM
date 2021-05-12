@@ -7,15 +7,22 @@
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
+        <!--제목-->
         <div class="subtitle">
             <img src="../images/profileicon.png" class="profileicon">
             학점 입력
         </div>
+        <!--포탈 버튼-->
         <div class="portalbtn">
             <a href = "myCE.html"><button id = "myCEbtn">나의 학점</button></a>
             <a href = "leftCE.html" ><button id = "leftbtn">남은 학점</button></a>
             <a href = "CR.html" ><button id = "recommendbtn">과목 추천</button></a>
             <a href = "../index.html"><button id = "logoutbtn">로그아웃</button></a>
         </div>
+        <!-- 학점 입력 -->
+        <form>
+            <input type = "text" name = "coursenum" size = "20" placeholder="이수 과목코드 입력" onfocus="this.placeholder=''" onblur="this.placeholder='학이수 과목코드 입력'">
+            <input type='submit' value= '등록하기'>-
+        </form>
     </body>
 </html>
