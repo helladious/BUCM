@@ -1,3 +1,21 @@
+/*메인 화면 버튼*/
+.indexbtn{
+    text-align : center;
+}
+
+#signinbtn{
+    width: 100px;
+    margin : 15px;
+}
+
+#signupbtn{
+    width: 100px;
+}
+
+#backbtn{
+    width: 100px;
+}
+
 /*상단의 페이지 제목*/
 .subtitle {
     font-family: 'Nanum Gothic', sans-serif;
@@ -28,28 +46,28 @@
     word-break: break-all;
 }
 
-/*학점 입력*/
+/*학점 입력 이동 버튼*/
 #enterbtn{
     width: 100px;
     margin-bottom : 15px;
     border-radius : 10px;
 }
 
-/*남은 학점*/
+/*남은 학점 이동 버튼*/
 #leftbtn{
     width: 100px;
     margin-bottom : 15px;
     border-radius : 10px;
 }
 
-/*과목 추천*/
+/*과목 추천 이동 버튼*/
 #recommendbtn{
     width: 100px;
     margin-bottom : 15px;
     border-radius : 10px;
 }
 
-/*로그아웃*/
+/*로그아웃 버튼*/
 #logoutbtn{
     width: 100px;
     margin-bottom : 15px;

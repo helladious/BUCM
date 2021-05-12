@@ -11,12 +11,12 @@
             로그인
         </div>
         <form>
-            <input type = "text" name = "id" size = "20" value = "학번을 입력하세요">
-            <input type = "text" name = "pw" size = "20" value = "비밀번호를 입력하세요">
+            <input type = "text" name = "id" size = "20" placeholder="학점을 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='학점을 입력하세요'">
+            <input type = "text" name = "pw" size = "20" placeholder="비밀번호를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='비밀번호를 입력하세요'">
         </form>
         <div class="button">
-            <button onclick="history.back()">뒤로가기</button>
-            <a href = "myCE.html"><button>로그인</button></a>
+            <button onclick="history.back()" id = "backbtn">뒤로가기</button>
+            <a href = "myCE.html"><button id="signinbtn">로그인</button></a>
         </div>
     </body>
 </html>
