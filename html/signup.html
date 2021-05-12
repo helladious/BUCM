@@ -6,4 +6,22 @@
         <meta charset = "utf-8">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
+    <body>
+        <div class="subtitle">
+            회원가입
+        </div>
+        <form>
+            <input type = "text" name = "id" size = "20" value = "학번을 입력하세요">
+            <input type = "text" name = "pw" size = "20" value = "비밀번호를 입력하세요">
+        </form>
+        <select id="학부" name="학부">
+            <option value="ICT">컴퓨터공학</option>
+            <option value="경찰">경찰학부</option>
+            <option value="간호">간호학부</option>
+        </select>
+        <div class="button">
+            <button onclick="history.back()">뒤로가기</button>
+            <a href="signin.html"><button>회원가입</button></a>
+        </div>
+    </body>
 </html>
