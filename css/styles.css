@@ -3,17 +3,10 @@
     text-align : center;
 }
 
-#signinbtn{
+/*로그인, 회원가입, 뒤로가기 버튼*/
+#signinbtn, #signupbtn, #backbtn{
     width: 100px;
     margin : 15px;
-}
-
-#signupbtn{
-    width: 100px;
-}
-
-#backbtn{
-    width: 100px;
 }
 
 /*상단의 페이지 제목*/
@@ -45,38 +38,11 @@
     width : 100px;
     word-wrap: break-word;
     word-break: break-all;
+    border-right-style: solid;
 }
 
-/*이수 학점 확인*/
-#myCEbtn{
-    width: 100px;
-    margin-bottom : 15px;
-    border-radius : 10px;
-}
-
-/*학점 입력 이동 버튼*/
-#enterbtn{
-    width: 100px;
-    margin-bottom : 15px;
-    border-radius : 10px;
-}
-
-/*남은 학점 이동 버튼*/
-#leftbtn{
-    width: 100px;
-    margin-bottom : 15px;
-    border-radius : 10px;
-}
-
-/*과목 추천 이동 버튼*/
-#recommendbtn{
-    width: 100px;
-    margin-bottom : 15px;
-    border-radius : 10px;
-}
-
-/*로그아웃 버튼*/
-#logoutbtn{
+/*포탈버튼*/
+#myCEbtn, #enterbtn, #leftbtn, #recommendbtn, #logoutbtn{
     width: 100px;
     margin-bottom : 15px;
     border-radius : 10px;
