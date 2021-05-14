@@ -106,3 +106,16 @@ body{
     margin-bottom : 15px;
     border-radius : 10px;
 }
+
+/*---------------------------------관리자페이지--------------------------------*/
+.cource_lead_btn{
+    margin-top : 20px;
+    margin-bottom : 0;
+}
+
+
+
+/*----과목 페이지-----*/
+.Subject_enter_form{
+    text-align: center;
+}
