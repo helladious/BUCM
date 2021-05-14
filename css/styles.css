@@ -6,7 +6,6 @@ body{
 
 
 /*------------------------------메인 화면----------------------------------------*/
-
 /*메인 화면 버튼*/
 .indexbtn{
     text-align : center;
@@ -22,7 +21,6 @@ body{
 
 
 /*----------------------------------회원가입 및 로그인----------------------------------------------*/
-
 /*회원가입창 form박스*/
 .signupform{
     display : table;
@@ -68,6 +66,8 @@ body{
 
 
 
+
+/*-------------------------각 화면 요소-----------------------*/
 /*상단의 페이지 제목*/
 .subtitle {
     margin-top : 20px;
@@ -97,7 +97,7 @@ body{
     width : 100px;
     word-wrap: break-word;
     word-break: break-all;
-    border-right-style: solid;
+    border-right: 1px solid;
 }
 
 /*포탈버튼*/
