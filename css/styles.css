@@ -1,18 +1,77 @@
+body{
+    font-family: 'Nanum Gothic';
+    margin:0;
+}
+
+
+
+/*------------------------------메인 화면----------------------------------------*/
+
 /*메인 화면 버튼*/
 .indexbtn{
     text-align : center;
 }
 
-/*로그인, 회원가입, 뒤로가기 버튼*/
-#signinbtn, #signupbtn, #backbtn{
+/*로그인, 회원가입*/
+#login, #signup{
     width: 100px;
     margin : 15px;
 }
 
+
+
+
+/*----------------------------------회원가입 및 로그인----------------------------------------------*/
+
+/*회원가입창 form박스*/
+.signupform{
+    display : table;
+    width : 200px;
+    padding : 20px;
+    margin-left : auto; margin-right : auto;
+}
+
+/*로그인창 form박스*/
+.loginform{
+    text-align: center;
+    display : table;
+    width : 250px;
+    padding : 20px;
+    margin-left : auto; margin-right : auto;
+}
+
+/*로그인과 회원가입 창에서 id와 pw입력칸, 로그인 버튼*/
+.class_of_num, .pw, .loginbtn{
+    width : 200px;
+    height : 24px;
+    margin-bottom : 10px;
+}
+
+/*회원가입 창의 학부 선택과 회원가입 버튼*/
+.signupbtn, #undergraduate{
+    width : 100px;
+    height : 24px;
+}
+
+/*뒤로가기 버튼*/
+.backbtn{
+    width : 140px;
+    text-align : center;
+    margin-right: auto; margin-left: auto;
+}
+
+#backbtn{
+    margin-top: 10px;
+    text-align: center;
+    width : 130px;
+}
+
+
+
 /*상단의 페이지 제목*/
 .subtitle {
-    margin : 20px;
-    font-family: 'Nanum Gothic', sans-serif;
+    margin-top : 20px;
+    font-family: 'Nanum Gothic';
     font-size : 32px;
     font-weight : bold;
     text-align : center;

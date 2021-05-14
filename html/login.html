@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <title>로그인</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="subtitle">
+        로그인
+    </div>
+
+    <div class = "loginform">
+        <form class = "menu">
+            <input type="text" class = "class_of_num" name="id" size="20" placeholder="학번을 입력하세요" onfocus="this.placeholder=''"
+                onblur="this.placeholder='학번을 입력하세요'">
+            <input type="text" class = "pw" name="pw" size="20" placeholder="비밀번호를 입력하세요" onfocus="this.placeholder=''"
+                onblur="this.placeholder='비밀번호를 입력하세요'">
+            <input type="submit" value="로그인" class="loginbtn">
+        </form>
+    </div>
+
+
+    <div class="backbtn">
+        <a href="signup.html">회원이 아니신가요?</a>
+        <button id="backbtn" onclick="history.back()">뒤로가기</button>
+    </div>
+</body>
+
+</html>
