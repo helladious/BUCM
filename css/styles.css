@@ -93,6 +93,7 @@ body{
 
 /*포탈버튼*/
 .portalbtn{
+    position : relative;
     padding : 20px;
     width : 100px;
     word-wrap: break-word;
