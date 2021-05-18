@@ -101,7 +101,7 @@ body{
 }
 
 /*포탈버튼*/
-#myCEbtn, #enterbtn, #leftbtn, #recommendbtn, #logoutbtn{
+#myCEbtn, #enterbtn, #leftbtn, #recommendbtn, #logoutbtn, #delete_sub, #add_sub{
     width: 100px;
     margin-bottom : 15px;
     border-radius : 10px;
