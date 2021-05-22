@@ -101,6 +101,13 @@ body{
     border-right: 1px solid;
 }
 
+.portalbtn_span{
+    display: table-cell;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
 /*포탈버튼*/
 #myCEbtn, #enterbtn, #leftbtn, #recommendbtn, #delete_sub, #add_sub, #logoutbtn{
     width: 100px;
