@@ -16,25 +16,26 @@
 
     <div class = "grid">
         <div class="portalbtn">
+            <a href="EC.html"><button id="add_sub">과목 등록</button></a>
             <a href="CD.html"><button id="delete_sub">과목 삭제</button></a>
             <button id="logoutbtn">로그아웃</button></a>
         </div>
 
         <div class="Subject_enter_form">
-            <form>
+            <form id = "input_subject_info_form">
                 <div class="Subject_enter_select">
-                    <select name="학과">
+                    <select name="학과" id="select">
                         <option value="소프트웨어">소프트웨어</option>
                         <option value="정보보안">정보보안</option>
                         <option value="정보통신">정보통신</option>
                     </select>
-                    <select name="교과군">
+                    <select name="교과군" id="select">
                         <option value="기초">기초교과군</option>
                         <option value="핵심">핵심교과군</option>
                         <option value="심화">심화교과군</option>
                         <option value="응용">응용교과군</option>
                     </select>
-                    <select name="학점">
+                    <select name="학점" id="select">
                         <option value="0">0</option>
                         <option value="0.5">0.5</option>
                         <option value="1">1</option>
@@ -43,13 +44,13 @@
                     </select>
                 </div>
                 <div class="Subject_enter_text">
-                    <input type="text" name="Add_Subject_name" size="20" placeholder="과목명을 입력하세요"
+                    <input type="text" id="text" name="Add_Subject_name" size="20" placeholder="과목명을 입력하세요"
                         onfocus="this.placeholder=''" onblur="this.placeholder='과목명을 입력하세요'">
-                    <input type="text" name="Add_Subject_code" size="20" placeholder="과목코드를 입력하세요"
+                    <input type="text" id="text" name="Add_Subject_code" size="20" placeholder="과목코드를 입력하세요"
                         onfocus="this.placeholder=''" onblur="this.placeholder='과목코드를 입력하세요'">
                 </div>
                 <div class="Subject_enter_time">
-                    <select name="요일">
+                    <select name="요일" id="select">
                         <option value="Mon">월요일</option>
                         <option value="Tue">화요일</option>
                         <option value="Wed">수요일</option>
@@ -58,7 +59,7 @@
                         <option value="Sat">토요일</option>
                         <option value="Sun">일요일</option>
                     </select>
-                    <input type="text" name="Add_time" size="20" placeholder="시간을 입력하세요" onfocus="this.placeholder=''"
+                    <input type="text" id="text" name="Add_time" size="20" placeholder="시간을 입력하세요" onfocus="this.placeholder=''"
                         onblur="this.placeholder='시간을 입력하세요'">
                     <input type="radio" name="Add_semester" value="1" />1 학기
                     <input type="radio" name="Add_semester" value="2" />2 학기

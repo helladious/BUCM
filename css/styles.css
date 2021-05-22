@@ -67,7 +67,7 @@ body{
 
 /*------------------------과목 추천-------------------------*/
 .inner_grid{
-    background-color: #E2E2E2;
+    background-color:#F2F2F2;
     display : grid;
     border : solid 1px;
     margin-top : 50px;
@@ -78,10 +78,58 @@ body{
     text-align: center;
 }
 
-#grid_title{
-    background-color: #F2F2F2;
+#grid_division{
+    background-color:#E2E2E2;
     padding : 20px;
     border-right : solid 1px;
+}
+#grid_complete{
+    padding : 20px;
+}
+
+#grid_division_title{
+    padding : 20px;
+    background-color: #BCBCBC;
+    border-right : solid 1px;
+}
+#grid_complete_title{
+    padding : 20px;
+    background-color: #DDDDDD;
+}
+
+/*선택 안 된 로드앱 포탈 버튼*/
+#roadmap_btn {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+/*선택된 로드맵 포탈 버튼*/
+#roadmap_btn_checked{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
 }
 
 
@@ -136,40 +184,7 @@ body{
 
 
 
-/*선택 안 된 로드앱 포탈 버튼*/
-#roadmap_btn {
-	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	background-color:#79bbff;
-	border-radius:6px;
-	border:1px solid #84bbf3;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #528ecc;
-}
-/*선택된 로드맵 포탈 버튼*/
-#roadmap_btn_checked{
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-    background-color:#ededed;
-    border-radius:6px;
-    border:1px solid #dcdcdc;
-    display:inline-block;
-    cursor:pointer;
-    color:#777777;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    padding:6px 24px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
-}
+
 
 /*---------------------------------관리자페이지--------------------------------*/
 .cource_lead_btn{
@@ -191,4 +206,21 @@ body{
     margin-top : 50px;
     margin-bottom : 100%; 
     text-align: center;
+}
+
+#input_subject_info_form{
+    border : 1px solid;
+    width : 200px;
+    margin-right : 60%;
+    margin-left : 40%;
+}
+
+.Subject_enter_select, .Subject_enter_text, .Subject_enter_time{
+    padding : 10px;
+}
+
+#select, #text{
+    width : 150px;
+    text-align: center;
+    margin : 5px;
 }
